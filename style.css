@@ -1,0 +1,108 @@
+/* Write some CSS below */
+
+
+body{
+	margin: 0px;
+	background-color: rgb(230, 230, 230);
+}
+
+h1{
+	font-family: 'Gothic A1', sans-serif;
+	color: black;
+	font-size: 50px;
+}
+
+#banner {
+	padding: 150px;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-size: cover;
+	background-position: center;
+}
+
+#banner h1 {
+	color: white;
+	margin: 2px;
+}
+
+#banner p{
+	color: white;
+	margin-bottom: 35px;
+}
+
+h2{
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 35px,
+}
+
+
+p{
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 20px;
+}
+
+
+.btn-blue {
+	background-color: #50A4B3;
+	color: black;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+
+.container{
+	width: 1000px;
+	margin: 10px auto;
+	margin-top: 35px;
+	padding: 20px;
+	text-align: center;
+}
+
+.card-white {
+	background-color: white;
+	width: 250px;
+	margin: 16px auto;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,0.4);
+}
+
+.card-white img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+}
+
+.card-white p{
+	font-size: 18px;
+}
+
+.cards{
+	display: flex;
+	justify-content;
+}
+
+footer{
+		font-family: 'Gothic A1', sans-serif;
+		font-size: 20px;
+
+}
+
+.footer{
+	background-color: black;
+	text-align: center;
+	padding: 40px;
+	color: #50A4B3;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Gothic A1', sans-serif;
+	color: grey;
+}
+
+a:hover{
+	text-decoration: none;
+	font-family: 'Gothic A1', sans-serif;
+	color: black;
+}
+
